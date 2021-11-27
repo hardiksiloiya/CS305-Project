@@ -27,7 +27,7 @@ The directories included in this repository are,
 ### 641.leela_s-1083B
 ```
 │
-└───CPLX_degree_change
+|───CPLX_degree_change
 │   │───CPLX_prefetch_degree_5   
 │   │───CPLX_prefetch_degree_9   
 │   └───CPLX_prefetch_degree_13
@@ -42,7 +42,7 @@ mshr_2bit folder contains modified prefetcher files for L1D and L2C caches. It a
 
 
 ### Remove NL
-"Remove NL" folder contains modified prefetcher files for L1D and L2C caches. It also contains the results obtained for some testbenches. Copy-paste ipcpm.l1d_pref and ipcpm.l2c_pref in prefetcher folder in champsim directory and build using the command
+This folder contains modified prefetcher files for L1D and L2C caches. It also contains the results obtained for some testbenches. Copy-paste ipcpm.l1d_pref and ipcpm.l2c_pref in prefetcher folder in champsim directory and build using the command
 ```
 ./build_champsim.sh bimodal no ipcpm ipcpm no lru 1
 ```
@@ -104,4 +104,3 @@ The video at this [link](https://www.youtube.com/embed/MUQfKFzIOeU) explains our
 | Konda Karthikeya Reddy | 190050060 | Worked towards improving the performance on `620.omnetpp_s-141B` |
 | Savyasach Reddy E | 190050109 | Worked towards improving the performance on `657.xz_s-2302B` |
 | Mukesh Reddy Julakanti | 190050054 | Worked towards improving the performance on `641.leela_s-1083B` |
-
