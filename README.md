@@ -50,8 +50,14 @@ and run for a trace file using
 ```
 ./run_champsim.sh bimodal-no-ipcpm-ipcpm-no-lru-1core 10 10 $tracefile 
 ```
+
+### Omnetpp
+
+Follow `Omnetpp/readme.txt`
+
 ### Thrash protect
-Follow the same instruction as in "Remove NL"
+This folder contains modified prefetcher files for L1D and L2C caches. It also contains the results obtained for some testbenches. Copy-paste ipcpm.l1d_pref and ipcpm.l2c_pref in prefetcher folder in champsim directory and build using the command
+Follow the same instruction as in "Remove NL" to build and run
 
 ### mshr_2bit
 This folder contains prefetcher files for L1D and L2C caches after implementing the idea of using MSHR occupancy to decide fill_level and using 2-bits for ip_valid. It also contains the results obtained for all testbenches and a plot showing improvement. Copy-paste mshr_2bit.l1d_pref and mshr_2bit.l2c_pref in prefetcher folder in champsim directory and build using the command
