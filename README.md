@@ -96,7 +96,7 @@ Omnetpp/
 ***
 ## Slides and Video
 
-The video at this [link](https://youtu.be/571DU2RCcyM) explains our approach. The files `slides.pdf` and `slides.pptx` are the slides used in this video. 
+The video at this [link](https://youtu.be/571DU2RCcyM?t=3) explains our approach. The files `slides.pdf` and `slides.pptx` are the slides used in this video. 
 
 
 ***
