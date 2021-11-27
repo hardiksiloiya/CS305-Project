@@ -54,7 +54,7 @@ and run for a trace file using
 Follow the same instruction as in "Remove NL"
 
 ### mshr_2bit
-This folder contains modified prefetcher files for L1D and L2C caches. It also contains the results obtained for all testbenches and a plot showing improvement. Copy-paste mshr_2bit.l1d_pref and mshr_2bit.l2c_pref in prefetcher folder in champsim directory and build using the command
+This folder contains prefetcher files for L1D and L2C caches after implementing the idea of using MSHR occupancy to decide fill_level and using 2-bits for ip_valid. It also contains the results obtained for all testbenches and a plot showing improvement. Copy-paste mshr_2bit.l1d_pref and mshr_2bit.l2c_pref in prefetcher folder in champsim directory and build using the command
 ```
 ./build_champsim.sh bimodal no mshr_2bit mshr_2bit no lru 1
 ```
@@ -90,7 +90,7 @@ Omnetpp/
 ***
 ## Slides and Video
 
-The video at this [link](https://www.youtube.com/embed/MUQfKFzIOeU) explains our approach. The files `slides.pdf` and `slides.pptx` are the slides used in this video. 
+The video at this [link](https://youtu.be/571DU2RCcyM) explains our approach. The files `slides.pdf` and `slides.pptx` are the slides used in this video. 
 
 
 ***
@@ -104,3 +104,4 @@ The video at this [link](https://www.youtube.com/embed/MUQfKFzIOeU) explains our
 | Konda Karthikeya Reddy | 190050060 | Worked towards improving the performance on `620.omnetpp_s-141B` |
 | Savyasach Reddy E | 190050109 | Worked towards improving the performance on `657.xz_s-2302B` |
 | Mukesh Reddy Julakanti | 190050054 | Worked towards improving the performance on `641.leela_s-1083B` |
+
