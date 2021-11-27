@@ -20,11 +20,5 @@ The files included in this directory are,
 
 ***
 
-The video at the following link explains our approach.
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+The video at this [link](https://www.youtube.com/embed/MUQfKFzIOeU) explains our approach.
 
