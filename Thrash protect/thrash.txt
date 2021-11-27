@@ -1,0 +1,240 @@
+For 600.perlbench_s-570B:
+Miss %       L1D          L2C
+Baseline:   .049        72.358
+ipcp:       .033         47.727
+ipcpm:      .035         53.800
+ 
+IPC ratio:
+ipcp/baseline    1.006
+ipcpm/baseline   1.005
+ipcpm/ipcp       .998
+ 
+    
+For 602.gcc_s-734B:
+Miss %       L1D          L2C
+Baseline:   8.122        50.158
+ipcp:       .449         40.727
+ipcpm:      .610         32.272
+ 
+IPC ratio:
+ipcp/baseline    1.705
+ipcpm/baseline   1.698
+ipcpm/ipcp       .995
+ 
+    
+For 602.gcc_s-2226B:
+Miss %       L1D          L2C
+Baseline:   49.015        99.955
+ipcp:       9.159         83.953
+ipcpm:      9.405         63.730
+ 
+IPC ratio:
+ipcp/baseline    5.326
+ipcpm/baseline   5.309
+ipcpm/ipcp       .996
+ 
+    
+For 603.bwaves_s-1740B:
+Miss %       L1D          L2C
+Baseline:   6.175        94.929
+ipcp:       .795         17.574
+ipcpm:      .880         19.450
+ 
+IPC ratio:
+ipcp/baseline    2.456
+ipcpm/baseline   2.440
+ipcpm/ipcp       .993
+ 
+    
+For 603.bwaves_s-2931B:
+Miss %       L1D          L2C
+Baseline:   6.626        83.240
+ipcp:       .275         30.264
+ipcpm:      .379         22.188
+ 
+IPC ratio:
+ipcp/baseline    2.262
+ipcpm/baseline   2.266
+ipcpm/ipcp       1.002
+ 
+    
+For 605.mcf_s-1554B:
+Miss %       L1D          L2C
+Baseline:   47.376        99.996
+ipcp:       25.142         99.055
+ipcpm:      25.549         97.950
+ 
+IPC ratio:
+ipcp/baseline    2.039
+ipcpm/baseline   2.017
+ipcpm/ipcp       .989
+ 
+    
+For 605.mcf_s-994B:
+Miss %       L1D          L2C
+Baseline:   11.366        56.189
+ipcp:       10.944         58.511
+ipcpm:      10.776         56.031
+ 
+IPC ratio:
+ipcp/baseline    .942
+ipcpm/baseline   .994
+ipcpm/ipcp       1.055
+ 
+    
+For 607.cactuBSSN_s-3477B:
+Miss %       L1D          L2C
+Baseline:   21.445        5.032
+ipcp:       22.099         .156
+ipcpm:      22.248         .550
+ 
+IPC ratio:
+ipcp/baseline    1.184
+ipcpm/baseline   1.149
+ipcpm/ipcp       .970
+ 
+    
+For 619.lbm_s-2676B:
+Miss %       L1D          L2C
+Baseline:   14.083        99.996
+ipcp:       10.205         46.243
+ipcpm:      10.230         45.003
+ 
+IPC ratio:
+ipcp/baseline    1.195
+ipcpm/baseline   1.195
+ipcpm/ipcp       .999
+ 
+    
+For 619.lbm_s-2677B:
+Miss %       L1D          L2C
+Baseline:   14.057        99.999
+ipcp:       10.531         46.834
+ipcpm:      10.545         45.174
+ 
+IPC ratio:
+ipcp/baseline    1.185
+ipcpm/baseline   1.185
+ipcpm/ipcp       .999
+ 
+    
+For 620.omnetpp_s-141B:
+Miss %       L1D          L2C
+Baseline:   6.658        70.782
+ipcp:       6.431         59.500
+ipcpm:      6.630         62.121
+ 
+IPC ratio:
+ipcp/baseline    1.045
+ipcpm/baseline   1.042
+ipcpm/ipcp       .997
+ 
+    
+For 621.wrf_s-8065B:
+Miss %       L1D          L2C
+Baseline:   4.124        62.781
+ipcp:       .793         7.777
+ipcpm:      .813         7.725
+ 
+IPC ratio:
+ipcp/baseline    1.550
+ipcpm/baseline   1.550
+ipcpm/ipcp       1.000
+ 
+    
+For 623.xalancbmk_s-202B:
+Miss %       L1D          L2C
+Baseline:   14.628        95.821
+ipcp:       1.022         59.267
+ipcpm:      1.112         54.391
+ 
+IPC ratio:
+ipcp/baseline    2.366
+ipcpm/baseline   2.355
+ipcpm/ipcp       .995
+ 
+    
+For 627.cam4_s-490B:
+Miss %       L1D          L2C
+Baseline:   12.561        40.520
+ipcp:       1.293         22.006
+ipcpm:      1.341         22.930
+ 
+IPC ratio:
+ipcp/baseline    1.218
+ipcpm/baseline   1.218
+ipcpm/ipcp       1.000
+ 
+    
+For 628.pop2_s-17B:
+Miss %       L1D          L2C
+Baseline:           
+ipcp:                
+ipcpm:               
+ 
+IPC ratio:
+ipcp/baseline    
+ipcpm/baseline   
+ipcpm/ipcp       
+ 
+    
+For 641.leela_s-1083B:
+Miss %       L1D          L2C
+Baseline:   1.180        4.001
+ipcp:       .679         2.803
+ipcpm:      .744         2.544
+ 
+IPC ratio:
+ipcp/baseline    1.013
+ipcpm/baseline   1.012
+ipcpm/ipcp       .998
+ 
+    
+For 649.fotonik3d_s-8225B:
+Miss %       L1D          L2C
+Baseline:   10.077        66.513
+ipcp:       .315         49.522
+ipcpm:      .363         40.072
+ 
+IPC ratio:
+ipcp/baseline    3.172
+ipcpm/baseline   3.172
+ipcpm/ipcp       1.000
+ 
+    
+For 654.roms_s-523B:
+Miss %       L1D          L2C
+Baseline:   13.375        99.998
+ipcp:       .899         98.618
+ipcpm:      1.081         71.322
+ 
+IPC ratio:
+ipcp/baseline    2.455
+ipcpm/baseline   2.451
+ipcpm/ipcp       .998
+ 
+    
+For 654.roms_s-1007B:
+Miss %       L1D          L2C
+Baseline:   .463        100.000
+ipcp:       .015         86.153
+ipcpm:      .018         65.116
+ 
+IPC ratio:
+ipcp/baseline    1.089
+ipcpm/baseline   1.089
+ipcpm/ipcp       .999
+ 
+    
+For 657.xz_s-2302B:
+Miss %       L1D          L2C
+Baseline:   3.571        49.836
+ipcp:       3.464         52.736
+ipcpm:      3.425         51.501
+ 
+IPC ratio:
+ipcp/baseline    .989
+ipcpm/baseline   1.003
+ipcpm/ipcp       1.013
+ 
+    

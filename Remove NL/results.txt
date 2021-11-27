@@ -1,0 +1,95 @@
+Using No NL prefecthing in L1D:
+For 600.perlbench_s-570B:
+Miss %       L1D          L2C
+Baseline:   .049         72.358
+ipcp:       .033         47.727
+ipcpm:      .033         52.434
+ 
+IPC ratio:
+ipcp/baseline    1.006
+ipcpm/baseline   1.005
+ipcpm/ipcp       .999
+ 
+    
+For 603.bwaves_s-891B:
+Miss %       L1D          L2C
+Baseline:   32.347         100.000
+ipcp:       1.479         100.000
+ipcpm:      1.481         100.000
+ 
+IPC ratio:
+ipcp/baseline    3.207
+ipcpm/baseline   3.205
+ipcpm/ipcp       .999
+ 
+    
+For 605.mcf_s-994B:
+Miss %       L1D          L2C
+Baseline:   11.366         56.189
+ipcp:       10.944         58.511
+ipcpm:      11.328         58.527
+ 
+IPC ratio:
+ipcp/baseline    .942
+ipcpm/baseline   1.006
+ipcpm/ipcp       1.068
+ 
+    
+For 620.omnetpp_s-141B:
+Miss %       L1D          L2C
+Baseline:   6.658         70.782
+ipcp:       6.431         59.500
+ipcpm:      6.786         66.611
+ 
+IPC ratio:
+ipcp/baseline    1.045
+ipcpm/baseline   1.012
+ipcpm/ipcp       .968
+ 
+    
+For 620.omnetpp_s-874B:
+Miss %       L1D          L2C
+Baseline:   6.438         64.279
+ipcp:       6.017         59.143
+ipcpm:      6.470         62.344
+ 
+IPC ratio:
+ipcp/baseline    1.047
+ipcpm/baseline   1.016
+ipcpm/ipcp       .970
+ 
+    
+For 649.fotonik3d_s-7084B:
+Miss %       L1D          L2C
+Baseline:   7.624         99.982
+ipcp:       .274         45.612
+ipcpm:      .275         45.279
+ 
+IPC ratio:
+ipcp/baseline    2.835
+ipcpm/baseline   2.834
+ipcpm/ipcp       .999
+ 
+    
+For 657.xz_s-2302B:
+Miss %       L1D          L2C
+Baseline:   3.571         49.836
+ipcp:       3.464         52.736
+ipcpm:      3.590         50.442
+ 
+IPC ratio:
+ipcp/baseline    .989
+ipcpm/baseline   .994
+ipcpm/ipcp       1.004
+ 
+    
+For 649.fotonik3d_s-7084B:
+Miss %       L1D          L2C
+Baseline:   7.624         99.982
+ipcp:       .274         45.612
+ipcpm:      .275         45.279
+ 
+IPC ratio:
+ipcp/baseline    2.835
+ipcpm/baseline   2.834
+ipcpm/ipcp       .999
